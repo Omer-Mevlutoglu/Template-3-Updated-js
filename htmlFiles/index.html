@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="MJX Store - Your one-stop destination for games, gift cards, and subscriptions." />
+    <meta name="keywords" content="MJX Store, Games, Gift Cards, Subscriptions, Buy Games, Online Store" />
+    <meta name="author" content="EYAD DOKASH" />
+    <title>MJX STORE</title>
+  
+    <!-- Normalize CSS for consistent styling -->
+    <link rel="stylesheet" href="/css/normalize.css" />
+  
+    <!-- Font Awesome 5+ for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&family=Fredoka+One&family=Play&display=swap" rel="stylesheet" />
+  
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/css/main.css"/>
+  </head>
+  <body>
+    <div class="header" id="header">
+      <div class="container">
+        <a href="/htmlFiles/index.html" class="logo">MJX Store</a>
+        <ul class="mainNav">
+          <li><a href="#articles">GAMES</a></li>
+          <li><a href="#gallery">GIFT CARDS</a></li>
+          <li><a href="#features">subscriptions</a></li>
+         
+          <li>
+            
+            <a href="#">Other Links</a>
+            <!-- Start mega menu  -->
+            <div class="mega-menu">
+              <div class="image">
+                <img decoding="async" src="/imgs/megamenu.png" alt="" />
+              </div>
+              <ul class="links">
+                <li>
+                  <a href="#testimonials"
+                    ><i class="far fa-comments fa-fw"></i> LIVE CHAT</a
+                  >
+     
+                </li>
+                <li>
+                  <a href="/htmlFiles/team.html"
+                    ><i class="far fa-user fa-fw"></i> Team Members</a
+                  >
+                </li>
+                <li>
+                  <a href="#services"
+                    ><i class="far fa-building fa-fw"></i> Services</a
+                  >
+                </li>
+                <li>
+                  <a href="#our-skills"
+                    ><i class="far fa-check-circle fa-fw"></i> OUR PARTENERS</a
+                  >
+                </li>
+                <li>
+                  <a href="#work-steps"
+                    ><i class="far fa-clipboard fa-fw"></i> RULES</a
+                  >
+                </li>
+              </ul>
+              <ul class="links">
+                <li>
+                  <a href="#events"
+                    ><i class="far fa-calendar-alt fa-fw"></i> ORDER HISTORY</a
+                  >
+                </li>
+                <li>
+                  <a href="#pricing"
+                    ><i class="fas fa-server fa-fw"></i> Pricing Plans</a
+                  >
+                </li>
+                <li>
+                  <a href="#video"
+                    ><i class="far fa-play-circle fa-fw"></i> Top Videos</a
+                  >
+                </li>
+                <li>
+                  <a href="#stats"
+                    ><i class="far fa-chart-bar fa-fw"></i> Stats</a
+                  >
+                </li>
+                <li>
+                  <a href="#discount"
+                    ><i class="fas fa-percent fa-fw"></i> Request A Discount</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!--End mega menu  -->
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Start landing  -->
+    <div class="landing">
+      <div class="container">
+        <div class="text">
+          <h2>Welcome,To Dokash Store</h2>
+          <p>
+            Welcome to MJX Store Here You can find any gift cards and Playstation games 🎮🚀
+          </p>
+        </div>
+        <div class="image"><img src="/imgs/logo.jpg" alt="" /></div>
+      </div>
+      <a href="#articles" class="go-down">
+        <i class="fas fa-angle-double-down fa-2x"></i>
+      </a>
+    </div>
+    <!-- End landing  -->
+ <!-- Start GAMES -->
+<div class="articles" id="articles">
+  <h2 class="main-title">GAMES</h2>
+  
+  <!-- Filter Buttons -->
+  <div class="filters">
+    <button id="showAll" class="filter-btn">Show All</button>
+    <button id="showAction" class="filter-btn">Action Games</button>
+    <button id="showRacing" class="filter-btn">Racing Games</button>
+  </div>
+
+  <!-- Container where JS will inject the cards -->
+  <div class="container" id="cardsContainer"></div>
+</div>
+    
+    <!-- End GAMES -->
+     <!-- start popup -->
+      <!-- Modal for Checkout -->
+<div id="popupModal" class="modal">
+  <div class="modal-content">
+    <span class="close-button">&times;</span>
+    <div id="popupContent">
+      <!-- Dynamic content will be inserted here -->
+    </div>
+    
+</div>
+
+</div>
+     <!-- end popup -->
+
+    <!-- start GIFT CARDS -->
+    <div class="gallery" id="gallery">
+      <h2 class="main-title">GIFT CARDS</h2>
+      <div class="container">
+        <div class="imageCard">
+          <a href="giftcards.html?category=GooglePlay">
+            <div class="image">
+              <img src="/imgs/Google-Play-Gift-Card.png" alt="Google Play" />
+            </div>
+          </a>
+        </div>
+        <div class="imageCard">
+          <!-- passing query parameter = category=ps to the giftcards page so we can depend on it to show the products  -->
+          <a href="giftcards.html?category=PS">
+            <div class="image">
+              <img src="/imgs/ps.webp" alt="PlayStation" />
+            </div>
+          </a>
+        </div>
+        <div class="imageCard">
+          <a href="giftcards.html?category=iTunes">
+            <div class="image">
+              <img src="/imgs/iTunes-Gift-Card.jpeg.crdownload" alt="iTunes" />
+            </div>
+          </a>
+        </div>
+        <div class="imageCard">
+          <a href="giftcards.html?category=RazerGold">
+            <div class="image">
+              <img src="/imgs/razer gold.jpeg" alt="Razer Gold" />
+            </div>
+          </a>
+        </div>
+        <div class="imageCard">
+          <a href="giftcards.html?category=Steam">
+            <div class="image">
+              <img src="/imgs/steam.jpeg" alt="Steam" />
+            </div>
+          </a>
+        </div>
+        <div class="imageCard">
+          <a href="giftcards.html?category=Xbox">
+            <div class="image">
+              <img src="/imgs/xbox.jpeg" alt="Xbox" />
+            </div>
+          </a>
+        </div>
+    </div>
+    </div>
+    <!-- End GIFT CARDS -->
+
+    <!-- Start subscriptions -->
+<div class="features" id="features">
+  <h2 class="main-title">Subscriptions</h2>
+  <div class="container">
+    <div class="featureCard quality">
+      <div class="imageHolder">
+        <img src="/imgs/sup3.webp" alt="Deluxe Subscription" />
+      </div>
+      <h2>Deluxe Subscription</h2>
+      <p>
+        Price: $30/month<br>
+        Features:<br>
+        Access to premium games and exclusive content.<br>
+        Early access to new game releases.<br>
+        Monthly in-game rewards and bonuses.<br>
+        Priority customer support.<br>
+        Discounts on purchases and DLCs.
+      </p>
+      <button class="subscription-buy-now" data-title="Deluxe Subscription" data-price="$30/month" data-img="/imgs/sup3.webp" data-description="Access to premium games and exclusive content. Early access to new game releases. Monthly in-game rewards and bonuses. Priority customer support. Discounts on purchases and DLCs.">BUY NOW</button>
+    </div>
+    <div class="featureCard time">
+      <div class="imageHolder">
+        <img src="/imgs/sup2.jpg" alt="Extra Subscription" />
+      </div>
+      <h2>Extra Subscription</h2>
+      <p>
+        Price: $20/month<br>
+        Features:<br>
+        Access to an expanded library of popular games.<br>
+        Online multiplayer and party chat functionality.<br>
+        Cloud saves and cross-device syncing.<br>
+        Monthly in-game rewards and perks.<br>
+        Exclusive early access to select titles and betas.
+      </p>
+      <button class="subscription-buy-now" data-title="Extra Subscription" data-price="$20/month" data-img="/imgs/sup2.jpg" data-description="Access to an expanded library of popular games. Online multiplayer and party chat functionality. Cloud saves and cross-device syncing. Monthly in-game rewards and perks. Exclusive early access to select titles and betas.">BUY NOW</button>
+    </div>
+    <div class="featureCard passion">
+      <div class="imageHolder">
+        <img src="/imgs/sup1.jpg" alt="Essential Subscription" />
+      </div>
+      <h2>Essential Subscription</h2>
+      <p>
+        Price: $10/month<br>
+        Features:<br>
+        Access to a curated library of essential games.<br>
+        Online multiplayer functionality for all supported games.<br>
+        Cloud save options for secure game progress storage.<br>
+        Monthly discounts on select game purchases.
+      </p>
+      <button class="subscription-buy-now" data-title="Essential Subscription" data-price="$10/month" data-img="/imgs/sup1.jpg" data-description="Access to a curated library of essential games. Online multiplayer functionality for all supported games. Cloud save options for secure game progress storage. Monthly discounts on select game purchases.">BUY NOW</button>
+    </div>
+  </div>
+</div>
+<!-- End subscriptions -->
+
+<!-- Modal for Subscription Checkout -->
+<div id="subscriptionModal" class="modal">
+  <div class="modal-content">
+    <span class="close-button">&times;</span>
+    <div id="subscriptionPopupContent"></div>
+</div>
+</div>
+     
+     <!-- START CONTACT US -->
+     <div class="contact-us">
+
+      <div class="main-title">Contact-us</div>
+  
+  <div class="container">
+      <form method="get">
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">TURKEY</option>
+          <option value="canada">EGYPT</option>
+          <option value="usa">IRAN</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+</div>
+  
+  </div>
+      <!-- END CONTACT US -->
+       <!-- start footer -->
+       <footer>
+        <div class="footer">
+          <div class="row">
+            <a href="https://www.facebook.com/profile.php?id=61557535423388" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/mjx__store/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="row">
+            <ul>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Career</a></li>
+            </ul>
+          </div>
+          <div class="row">
+            
+            
+            </div>
+            Copyright © 2021 DOKASH - All rights reserved || Designed By: EYAD DOKASH
+          </div>
+        </div>
+      </footer>
+
+       <!-- end footer -->
+     <script src="/jsFiles/main.js"></script>
+  </body>
+</html>
