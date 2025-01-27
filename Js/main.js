@@ -7,7 +7,7 @@ const gamesData = [
     text: "Delivers epic battles, heartfelt storytelling, Norse mythology, and unforgettable action-adventure gameplay.",
     price: "29.99$",
     link: "#",
-    imgSrc: "/imgs/god of war.webp",
+    imgSrc: "/images/god of war.webp",
     category: "Action",
   },
   {
@@ -15,7 +15,7 @@ const gamesData = [
     text: "The FC25 offers exceptional performance, reliability, efficiency, modern design, and unmatched value.",
     price: "24.99$",
     link: "#",
-    imgSrc: "/imgs/fc25.jpeg",
+    imgSrc: "/images/fc25.jpeg",
     category: "Action",
   },
   {
@@ -23,7 +23,7 @@ const gamesData = [
     text: "Delivers intense action, gripping storylines, cutting-edge graphics, multiplayer excitement, and innovation.",
     price: "49.99$",
     link: "#",
-    imgSrc: "/imgs/ops6.jpeg",
+    imgSrc: "/images/ops6.jpeg",
     category: "Action",
   },
   {
@@ -31,7 +31,7 @@ const gamesData = [
     text: "Offers thrilling street racing, customizable cars, dynamic challenges, and non-stop adrenaline-fueled action.",
     price: "9.99$",
     link: "#",
-    imgSrc: "/imgs/nfs heat.jpeg",
+    imgSrc: "/images/nfs heat.jpeg",
     category: "Racing",
   },
   {
@@ -39,7 +39,7 @@ const gamesData = [
     text: "Delivers an expansive open world, gripping story, dynamic characters, multiplayer mayhem, and endless entertainment.",
     price: "19.99$",
     link: "#",
-    imgSrc: "/imgs/Grand Theft Auto V.jpg",
+    imgSrc: "/images/Grand Theft Auto V.jpg",
     category: "Racing",
   },
   {
@@ -47,7 +47,7 @@ const gamesData = [
     text: "Offers breathtaking visuals, immersive gameplay, epic battles, and an unforgettable action-adventure experience.",
     price: "54.99$",
     link: "#",
-    imgSrc: "/imgs/wokung.jpeg",
+    imgSrc: "/images/wokung.jpeg",
     category: "Racing",
   },
   {
@@ -55,7 +55,7 @@ const gamesData = [
     text: "Delivers a vast open world, gripping lore, challenging combat, stunning visuals, and unparalleled epic adventures.",
     price: "39.99$",
     link: "#",
-    imgSrc: "/imgs/eldin ring.jpeg",
+    imgSrc: "/images/eldin ring.jpeg",
     category: "Action",
   },
   {
@@ -63,7 +63,7 @@ const gamesData = [
     text: "Offers stealth action, intricate missions, creative assassinations, and the ultimate professional assassin experience.",
     price: "49.99$",
     link: "#",
-    imgSrc: "/imgs/hitman 3.jpeg",
+    imgSrc: "/images/hitman 3.jpeg",
     category: "Action",
   },
 ];
