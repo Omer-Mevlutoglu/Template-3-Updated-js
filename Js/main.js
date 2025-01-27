@@ -7,7 +7,7 @@ const gamesData = [
     text: "Delivers epic battles, heartfelt storytelling, Norse mythology, and unforgettable action-adventure gameplay.",
     price: "29.99$",
     link: "#",
-    imgSrc: "../images/god of war.webp",
+    imgSrc: "images/god of war.webp",
     category: "Action",
   },
   {
