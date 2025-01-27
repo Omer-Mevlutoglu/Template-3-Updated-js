@@ -4,28 +4,28 @@ const teamMembers = [
   {
     name: "John Doe",
     role: "CEO & Founder",
-    image: "/images/team3.jpg", // Path to the image of the team member
+    image: "images/team3.jpg", // Path to the image of the team member
     description:
       "John is the visionary behind our success. With over 20 years of experience, he leads with passion and integrity.",
   },
   {
     name: "Jane Smith",
     role: "CTO",
-    image: "/images/team2.jpg",
+    image: "images/team2.jpg",
     description:
       "Jane oversees all technology initiatives and ensures our systems are cutting-edge and secure.",
   },
   {
     name: "Michael Brown",
     role: "Lead Designer",
-    image: "/images/1team.jpg",
+    image: "images/1team.jpg",
     description:
       "Michael's creativity knows no bounds. He designs user-friendly interfaces that captivate our clients.",
   },
   {
     name: "Toni Kross",
     role: "Marketing Manager",
-    image: "/images/team4.jpg",
+    image: "images/team4.jpg",
     description:
       "Toni crafts campaigns that resonate with our audience, driving engagement and growth.",
   },
